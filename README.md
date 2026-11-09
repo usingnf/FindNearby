@@ -1,2 +1,0 @@
-# FindNearby
-FindNearby

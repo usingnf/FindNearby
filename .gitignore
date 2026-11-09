@@ -1,0 +1,22 @@
+# Local logs and generated deployment archives
+/Temp/
+/Build/*.zip
+!/Build/배포_FindNearby_0.1.1-test.zip
+*.log
+
+# Local credentials and environment settings
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+!*.env.example
+ApiKey.txt
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Runtime databases and SQLite sidecar files
+*.sqlite3
+*.sqlite3-*

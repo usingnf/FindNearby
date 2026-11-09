@@ -1,0 +1,13 @@
+/node_modules/
+/.pnpm-store/
+/dist/
+/.venv/
+/.env
+/.env.local
+/.env.*.local
+/ApiKey.txt
+/__pycache__/
+__pycache__/
+*.pyc
+*.sqlite3
+*.sqlite3-*

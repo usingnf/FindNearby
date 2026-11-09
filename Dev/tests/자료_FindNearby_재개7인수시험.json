@@ -1,0 +1,507 @@
+{
+  "coordinate_source": {
+    "title": "국토교통부_전국 버스정류장 위치정보_20261020",
+    "url": "https://www.data.go.kr/data/15067528/fileData.do",
+    "reference_date": "2026-10-20",
+    "sha256": "08ab0ecca91fd0d09d5f8846a5bcb01bbcee406adc1cdfbb1f1097a350be2571"
+  },
+  "active_origin_ids": ["O01", "O02", "O13", "O23", "O27"],
+  "origins": [
+    {
+      "id": "O01",
+      "group": "metro",
+      "area": "서울 중구",
+      "stop_name": "시청앞.덕수궁",
+      "stop_id": "GGB101000290",
+      "coordinates": {
+        "lat": 37.56625,
+        "lng": 126.9768833
+      },
+      "facilities_by_mode": {
+        "walk": "convenience",
+        "transit": "subway",
+        "car": "restroom"
+      }
+    },
+    {
+      "id": "O02",
+      "group": "metro",
+      "area": "서울 마포구",
+      "stop_name": "홍대입구역",
+      "stop_id": "GGB113000134",
+      "coordinates": {
+        "lat": 37.5566667,
+        "lng": 126.92385
+      },
+      "facilities_by_mode": {
+        "walk": "subway",
+        "transit": "restroom",
+        "car": "convenience"
+      }
+    },
+    {
+      "id": "O03",
+      "group": "metro",
+      "area": "서울 강남구",
+      "stop_name": "강남역12번출구A",
+      "stop_id": "GGB122000745",
+      "coordinates": {
+        "lat": 37.4987333,
+        "lng": 127.0293833
+      },
+      "facilities_by_mode": {
+        "walk": "restroom",
+        "transit": "convenience",
+        "car": "subway"
+      }
+    },
+    {
+      "id": "O04",
+      "group": "metro",
+      "area": "인천 미추홀구",
+      "stop_name": "석바위시장",
+      "stop_id": "ICB363000381",
+      "coordinates": {
+        "lat": 37.459129,
+        "lng": 126.689729
+      },
+      "facilities_by_mode": {
+        "walk": "convenience",
+        "transit": "subway",
+        "car": "restroom"
+      }
+    },
+    {
+      "id": "O05",
+      "group": "metro",
+      "area": "인천 남동구",
+      "stop_name": "인천시청후문",
+      "stop_id": "ICB365000290",
+      "coordinates": {
+        "lat": 37.456602,
+        "lng": 126.704731
+      },
+      "facilities_by_mode": {
+        "walk": "subway",
+        "transit": "restroom",
+        "car": "convenience"
+      }
+    },
+    {
+      "id": "O06",
+      "group": "metro",
+      "area": "인천 검단",
+      "stop_name": "검단사거리역",
+      "stop_id": "ICB168000426",
+      "coordinates": {
+        "lat": 37.602567,
+        "lng": 126.656521
+      },
+      "facilities_by_mode": {
+        "walk": "restroom",
+        "transit": "convenience",
+        "car": "subway"
+      }
+    },
+    {
+      "id": "O07",
+      "group": "metro",
+      "area": "경기 수원",
+      "stop_name": "수원역환승센터(1승강장)",
+      "stop_id": "GGB201000587",
+      "coordinates": {
+        "lat": 37.2656,
+        "lng": 126.9990333
+      },
+      "facilities_by_mode": {
+        "walk": "convenience",
+        "transit": "subway",
+        "car": "restroom"
+      }
+    },
+    {
+      "id": "O08",
+      "group": "metro",
+      "area": "경기 성남",
+      "stop_name": "판교역서편",
+      "stop_id": "GGB206000233",
+      "coordinates": {
+        "lat": 37.3953833,
+        "lng": 127.10985
+      },
+      "facilities_by_mode": {
+        "walk": "subway",
+        "transit": "restroom",
+        "car": "convenience"
+      }
+    },
+    {
+      "id": "O09",
+      "group": "metro",
+      "area": "경기 고양",
+      "stop_name": "정발산역4번출구.일산동구청",
+      "stop_id": "GGB219001157",
+      "coordinates": {
+        "lat": 37.6581833,
+        "lng": 126.7743167
+      },
+      "facilities_by_mode": {
+        "walk": "restroom",
+        "transit": "convenience",
+        "car": "subway"
+      }
+    },
+    {
+      "id": "O10",
+      "group": "metro",
+      "area": "경기 하남",
+      "stop_name": "미사역",
+      "stop_id": "GGB227000658",
+      "coordinates": {
+        "lat": 37.5637,
+        "lng": 127.1928333
+      },
+      "facilities_by_mode": {
+        "walk": "convenience",
+        "transit": "subway",
+        "car": "restroom"
+      }
+    },
+    {
+      "id": "O11",
+      "group": "regional_city",
+      "area": "부산 부산진구",
+      "stop_name": "서면역",
+      "stop_id": "BSB164680201",
+      "coordinates": {
+        "lat": 35.15728105,
+        "lng": 129.0594598
+      },
+      "facilities_by_mode": {
+        "walk": "subway",
+        "transit": "restroom",
+        "car": "convenience"
+      }
+    },
+    {
+      "id": "O12",
+      "group": "regional_city",
+      "area": "부산 해운대구",
+      "stop_name": "해운대역",
+      "stop_id": "BSB186250302",
+      "coordinates": {
+        "lat": 35.16338939,
+        "lng": 129.1581344
+      },
+      "facilities_by_mode": {
+        "walk": "restroom",
+        "transit": "convenience",
+        "car": "subway"
+      }
+    },
+    {
+      "id": "O13",
+      "group": "regional_city",
+      "area": "대구 동구",
+      "stop_name": "동대구역",
+      "stop_id": "DGB7011006700",
+      "coordinates": {
+        "lat": 35.87917,
+        "lng": 128.62698
+      },
+      "facilities_by_mode": {
+        "walk": "convenience",
+        "transit": "subway",
+        "car": "restroom"
+      }
+    },
+    {
+      "id": "O14",
+      "group": "regional_city",
+      "area": "대구 중구",
+      "stop_name": "반월당역(2번출구)",
+      "stop_id": "DGB7001001600",
+      "coordinates": {
+        "lat": 35.86266,
+        "lng": 128.59329
+      },
+      "facilities_by_mode": {
+        "walk": "subway",
+        "transit": "restroom",
+        "car": "convenience"
+      }
+    },
+    {
+      "id": "O15",
+      "group": "regional_city",
+      "area": "대전 동구",
+      "stop_name": "대전역",
+      "stop_id": "DJB8001417",
+      "coordinates": {
+        "lat": 36.33195,
+        "lng": 127.43239
+      },
+      "facilities_by_mode": {
+        "walk": "restroom",
+        "transit": "convenience",
+        "car": "subway"
+      }
+    },
+    {
+      "id": "O16",
+      "group": "regional_city",
+      "area": "광주 광산구",
+      "stop_name": "광주송정역",
+      "stop_id": "KJB811",
+      "coordinates": {
+        "lat": 35.13823,
+        "lng": 126.79181
+      },
+      "facilities_by_mode": {
+        "walk": "convenience",
+        "transit": "subway",
+        "car": "restroom"
+      }
+    },
+    {
+      "id": "O17",
+      "group": "regional_city",
+      "area": "울산 남구",
+      "stop_name": "시청앞",
+      "stop_id": "USB193031109",
+      "coordinates": {
+        "lat": 35.53915699,
+        "lng": 129.3123405
+      },
+      "facilities_by_mode": {
+        "walk": "subway",
+        "transit": "restroom",
+        "car": "convenience"
+      }
+    },
+    {
+      "id": "O18",
+      "group": "regional_city",
+      "area": "전주 덕진구",
+      "stop_name": "전주역첫마중길",
+      "stop_id": "JUB306101094",
+      "coordinates": {
+        "lat": 35.8483197,
+        "lng": 127.1578906
+      },
+      "facilities_by_mode": {
+        "walk": "restroom",
+        "transit": "convenience",
+        "car": "subway"
+      }
+    },
+    {
+      "id": "O19",
+      "group": "rural",
+      "area": "강원 철원",
+      "stop_name": "동송터미널",
+      "stop_id": "GGB262500660",
+      "coordinates": {
+        "lat": 38.2077167,
+        "lng": 127.2178333
+      },
+      "facilities_by_mode": {
+        "walk": "convenience",
+        "transit": "subway",
+        "car": "restroom"
+      }
+    },
+    {
+      "id": "O20",
+      "group": "rural",
+      "area": "강원 인제",
+      "stop_name": "인제터미널",
+      "stop_id": "TSB265000205",
+      "coordinates": {
+        "lat": 38.065527,
+        "lng": 128.1749062
+      },
+      "facilities_by_mode": {
+        "walk": "subway",
+        "transit": "restroom",
+        "car": "convenience"
+      }
+    },
+    {
+      "id": "O21",
+      "group": "rural",
+      "area": "충북 단양",
+      "stop_name": "단양시외버스공용터미널",
+      "stop_id": "GGB282500090",
+      "coordinates": {
+        "lat": 36.9858667,
+        "lng": 128.3709
+      },
+      "facilities_by_mode": {
+        "walk": "restroom",
+        "transit": "convenience",
+        "car": "subway"
+      }
+    },
+    {
+      "id": "O22",
+      "group": "rural",
+      "area": "충남 청양",
+      "stop_name": "청양터미널",
+      "stop_id": "CNB296000218",
+      "coordinates": {
+        "lat": 36.452187,
+        "lng": 126.80369
+      },
+      "facilities_by_mode": {
+        "walk": "convenience",
+        "transit": "subway",
+        "car": "restroom"
+      }
+    },
+    {
+      "id": "O23",
+      "group": "rural",
+      "area": "함평군",
+      "stop_name": "함평터미널",
+      "stop_id": "HPB584",
+      "coordinates": {
+        "lat": 35.06185233,
+        "lng": 126.5232566
+      },
+      "facilities_by_mode": {
+        "walk": "subway",
+        "transit": "restroom",
+        "car": "convenience"
+      }
+    },
+    {
+      "id": "O24",
+      "group": "rural",
+      "area": "경북 봉화",
+      "stop_name": "봉화역",
+      "stop_id": "TSB371000036",
+      "coordinates": {
+        "lat": 36.891778,
+        "lng": 128.7273611
+      },
+      "facilities_by_mode": {
+        "walk": "restroom",
+        "transit": "convenience",
+        "car": "subway"
+      }
+    },
+    {
+      "id": "O25",
+      "group": "rural",
+      "area": "경남 하동",
+      "stop_name": "화개장터",
+      "stop_id": "TSB394000681",
+      "coordinates": {
+        "lat": 35.188205,
+        "lng": 127.6247452
+      },
+      "facilities_by_mode": {
+        "walk": "convenience",
+        "transit": "subway",
+        "car": "restroom"
+      }
+    },
+    {
+      "id": "O26",
+      "group": "rural",
+      "area": "제주 서귀포",
+      "stop_name": "성산항",
+      "stop_id": "JEB406000684",
+      "coordinates": {
+        "lat": 33.470448,
+        "lng": 126.930241
+      },
+      "facilities_by_mode": {
+        "walk": "subway",
+        "transit": "restroom",
+        "car": "convenience"
+      }
+    },
+    {
+      "id": "O27",
+      "group": "detour",
+      "area": "서울 서초구",
+      "stop_name": "반포한강공원.세빛섬",
+      "stop_id": "GGB121000938",
+      "coordinates": {
+        "lat": 37.51085,
+        "lng": 126.9985167
+      },
+      "facilities_by_mode": {
+        "walk": "restroom",
+        "transit": "convenience",
+        "car": "subway"
+      }
+    },
+    {
+      "id": "O28",
+      "group": "detour",
+      "area": "서울 구로구",
+      "stop_name": "신도림역",
+      "stop_id": "GGB116000016",
+      "coordinates": {
+        "lat": 37.5072,
+        "lng": 126.8915333
+      },
+      "facilities_by_mode": {
+        "walk": "convenience",
+        "transit": "subway",
+        "car": "restroom"
+      }
+    },
+    {
+      "id": "O29",
+      "group": "detour",
+      "area": "부산 북구",
+      "stop_name": "구포역",
+      "stop_id": "BSB182180101",
+      "coordinates": {
+        "lat": 35.20520878,
+        "lng": 128.9958289
+      },
+      "facilities_by_mode": {
+        "walk": "subway",
+        "transit": "restroom",
+        "car": "convenience"
+      }
+    },
+    {
+      "id": "O30",
+      "group": "detour",
+      "area": "부산 동구",
+      "stop_name": "부산역후문",
+      "stop_id": "BSB169270102",
+      "coordinates": {
+        "lat": 35.11722833,
+        "lng": 129.045605
+      },
+      "facilities_by_mode": {
+        "walk": "restroom",
+        "transit": "convenience",
+        "car": "subway"
+      }
+    }
+  ],
+  "supplemental_cases": [
+    {
+      "id": "AT05-T",
+      "origin_id": "O01",
+      "mode": "transit",
+      "kind": "convenience",
+      "compare_to": "O01-W"
+    },
+    {
+      "id": "AT05-C",
+      "origin_id": "O01",
+      "mode": "car",
+      "kind": "convenience",
+      "compare_to": "O01-W"
+    }
+  ]
+}
