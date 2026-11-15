@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/api/:operation(status|addresses|recommend|route)",
+      "destination": "/api/find-nearby?findNearbyOperation=:operation"
+    }
+  ]
+}

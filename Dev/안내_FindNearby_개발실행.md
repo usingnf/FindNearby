@@ -1,5 +1,7 @@
 # FindNearby 개발 실행
 
+웹 배포에는 [Vercel·Supabase 배포 안내](supabase/안내_FindNearby_Supabase배포.md)를 사용합니다. 아래 절차는 기존 FastAPI 개발 환경과 시험 ZIP에 적용합니다.
+
 `Dev`는 FindNearby의 프런트엔드, API 서버, 테스트, 데이터 양식을 보관하는 개발 폴더다. 6단계 원본 소스와 ZIP이 현재 저장소에 없어 요구사항과 단계 기록을 바탕으로 이 기준본을 재구현했다. [요구사항 정의서](../Document/REQUIREMENTS_DEFINITION_SRS_v1.0.md), [후속 개발 계획](../Document/계획_FindNearby_기존검토및후속개발.md)
 
 ## 설치와 실행

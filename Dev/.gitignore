@@ -5,6 +5,9 @@
 /.env
 /.env.local
 /.env.*.local
+/.vercel/
+/supabase/.branches/
+/supabase/.temp/
 /ApiKey.txt
 /__pycache__/
 __pycache__/

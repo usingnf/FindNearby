@@ -1,0 +1,4 @@
+project_id = "find-nearby"
+
+[functions.find-nearby]
+verify_jwt = false
