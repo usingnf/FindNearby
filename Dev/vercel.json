@@ -1,0 +1,19 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "routes": [
+    {
+      "src": "/api/(status|addresses|recommend|route)",
+      "dest": "${FIND_NEARBY_SUPABASE_URL}/functions/v1/find-nearby/$1",
+      "env": ["FIND_NEARBY_SUPABASE_URL"],
+      "transforms": [
+        {
+          "type": "request.headers",
+          "op": "set",
+          "target": { "key": "x-find-nearby-origin-secret" },
+          "args": "$FIND_NEARBY_ORIGIN_SECRET",
+          "env": ["FIND_NEARBY_ORIGIN_SECRET"]
+        }
+      ]
+    }
+  ]
+}
