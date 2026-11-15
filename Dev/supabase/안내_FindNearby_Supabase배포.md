@@ -29,7 +29,7 @@
 
 ## 3. Vercel 연결
 
-Vercel의 Framework Preset은 `Vite`, Root Directory는 `Dev`, Build Command는 `npm run build`, Output Directory는 `dist`입니다. `Dev/vercel.json`이 포함된 커밋을 배포합니다. 환경별 값은 Vercel 프로젝트의 **Settings → Environment Variables**에 입력합니다. [라우팅 설정](https://vercel.com/docs/project-configuration/vercel-json#using-environment-variables-in-routes) · [Vercel 환경변수](https://vercel.com/docs/environment-variables)
+Vercel의 Framework Preset은 `Vite`, Root Directory는 `Dev`, Build Command는 `npm run build`, Output Directory는 `dist`입니다. `Dev/vercel.json`과 `Dev/api/find-nearby.js`가 포함된 커밋을 배포합니다. 환경별 값은 Vercel 프로젝트의 **Settings → Environment Variables**에 입력합니다. [Vercel Node.js 함수](https://vercel.com/docs/functions/runtimes/node-js#create-a-nodejs-function-in-api) · [Vercel 환경변수](https://vercel.com/docs/environment-variables)
 
 | 변수 | 등록할 값 |
 | --- | --- |
@@ -48,7 +48,7 @@ Preview를 확인한 뒤 Production 환경변수를 설정하고 배포합니다
 3. Vercel 화면에서 **실제 데이터** 표시, 주소 검색, 도보·대중교통·자동차 추천을 확인합니다. 자동차 카드 선택 후 상세 경로가 열리는지, 지도에 경로선이 그려지는지도 확인합니다. 공급자 권한은 실제 응답으로 확인합니다.
 4. 시험 환경에서 두 이용자의 분당 한도가 독립적으로 적용되는지, 동시 요청·재시도에도 전체 호출 한도가 유지되는지 확인합니다. 앱 로그에는 작업명·상태·응답시간이 기록됩니다. 운영 전 호스팅 플랫폼의 요청 로그에 주소 쿼리나 위치 좌표가 보관되는지도 확인합니다.
 
-Vercel의 `404`는 배포에 라우팅 설정이 포함됐는지 먼저 확인합니다. `401`은 양쪽의 공유 키를, `503`은 응답의 메시지에 따라 데이터베이스 이전과 키·카카오 권한을 확인합니다.
+Vercel의 `404`는 배포에 라우팅 설정과 함수가 포함됐는지 확인합니다. `401`은 양쪽의 공유 키를 확인합니다. `503` 메시지에 Vercel 환경변수 이름이 나오면 해당 배포 환경에 두 변수를 등록하고 재배포합니다. 데이터베이스 또는 카카오 관련 메시지가 나오면 데이터 이전이나 카카오 키·권한을 확인합니다.
 
 ## 로컬 실행 및 검증
 
